@@ -11,7 +11,6 @@ public class Average {
     }
 
     static double compareThreeNumber(double d1, double d2, double d3) {
-        double result = (d1 + d2 + d3) / 3;
-        return result;
+        return (d1 + d2 + d3) / 3;
     }
 }
