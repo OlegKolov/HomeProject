@@ -4,7 +4,7 @@ public class Person {
     String fullName;
     int age;
 
-    Person(){
+    Person() {
         fullName = "Joseph Francis Tribbiani";
         age = 26;
     }
