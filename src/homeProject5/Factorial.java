@@ -5,7 +5,7 @@ public class Factorial {
         double n = Math.random() * 10;
         System.out.println(n);
         double result = 1;
-        for (int i = (int)n; i >= 1; i--) {
+        for (int i = (int) n; i >= 1; i--) {
             result = result * n--;
         }
         System.out.println(result);
