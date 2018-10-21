@@ -10,4 +10,12 @@ public class Lorry extends Car {
         super(model, avtoClass, weight, driver, engine);
         this.capacity = capacity;
     }
+
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
+    }
 }
