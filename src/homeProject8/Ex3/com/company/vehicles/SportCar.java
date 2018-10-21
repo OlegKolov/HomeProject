@@ -10,4 +10,12 @@ public class SportCar extends Car {
         super(model, avtoClass, weight, driver, engine);
         this.maxSpeed = maxSpeed;
     }
+
+    public int getMaxSpeed() {
+        return maxSpeed;
+    }
+
+    public void setMaxSpeed(int maxSpeed) {
+        this.maxSpeed = maxSpeed;
+    }
 }
