@@ -7,8 +7,8 @@ public class Car {
     private String model;
     private String avtoClass;
     private int weight;
-    Driver driver = new Driver();
-    Engine engine = new Engine();
+    private Driver driver;
+    private Engine engine;
 
     public Car(String model, String avtoClass, int weight, Driver driver, Engine engine) {
         this.model = model;
