@@ -34,6 +34,7 @@ public class Cat extends Animal {
         this.wild = wild;
     }
 
+
     @Override
     public void makeNoise() {
         System.out.println("Meooow");

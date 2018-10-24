@@ -1,6 +1,6 @@
 package homeProject8.Ex5;
 
-public class Dog extends Animal{
+public class Dog extends Animal {
     private boolean curledTail;
     private boolean trained;
 
@@ -35,17 +35,17 @@ public class Dog extends Animal{
     }
 
     @Override
-    public void makeNoise(){
+    public void makeNoise() {
         System.out.println("Woof-woof");
     }
 
     @Override
-    public void eat(){
+    public void eat() {
         System.out.println("Dog is eating");
     }
 
     @Override
-    public void sleep(){
+    public void sleep() {
         System.out.println("Dog is sleeping");
     }
 }

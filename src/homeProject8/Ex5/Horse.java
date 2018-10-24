@@ -35,17 +35,17 @@ public class Horse extends Animal {
     }
 
     @Override
-    public void makeNoise(){
+    public void makeNoise() {
         System.out.println("Neeeeeigh");
     }
 
     @Override
-    public void eat(){
+    public void eat() {
         System.out.println("Horse is eating");
     }
 
     @Override
-    public void sleep(){
+    public void sleep() {
         System.out.println("Horse is sleeping");
     }
 }
