@@ -1,7 +1,7 @@
 package homeProject9.Ex4;
 
 public class Apple extends Fruit {
-    final private double value = 15.50;
+    final private double VALUE = 15.50;
     private static double sum = 0;
 
     public Apple(double weight) {
@@ -20,12 +20,12 @@ public class Apple extends Fruit {
     }
 
     public double getValue() {
-        return value;
+        return VALUE;
     }
 
     @Override
     public double cost() {
-        sum += getWeight() * value;
-        return getWeight() * value;
+        sum += getWeight() * VALUE;
+        return getWeight() * VALUE;
     }
 }
