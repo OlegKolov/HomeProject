@@ -28,15 +28,15 @@ public class Animal {
         this.location = location;
     }
 
-    public void makeNoise(){
+    public void makeNoise() {
         System.out.println("Animal is silent");
     }
 
-    public  void eat(){
+    public void eat() {
         System.out.println("No food");
     }
 
-    public void sleep(){
+    public void sleep() {
         System.out.println("Animal is sleeping");
     }
 }
