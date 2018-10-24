@@ -35,17 +35,17 @@ public class Cat extends Animal {
     }
 
     @Override
-    public void makeNoise(){
+    public void makeNoise() {
         System.out.println("Meooow");
     }
 
     @Override
-    public void eat(){
+    public void eat() {
         System.out.println("Cat is eating");
     }
 
     @Override
-    public void sleep(){
+    public void sleep() {
         System.out.println("Cat is sleeping");
     }
 }
