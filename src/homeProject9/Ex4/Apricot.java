@@ -1,7 +1,7 @@
 package homeProject9.Ex4;
 
 public class Apricot extends Fruit {
-    final private double value = 20;
+    final private double VALUE = 20;
     private static double sum = 0;
 
     public Apricot(double weight) {
@@ -12,7 +12,7 @@ public class Apricot extends Fruit {
     }
 
     public double getValue() {
-        return value;
+        return VALUE;
     }
 
     public static double getSum() {
@@ -25,7 +25,7 @@ public class Apricot extends Fruit {
 
     @Override
     public double cost() {
-        sum += getWeight() * value;
-        return getWeight() * value;
+        sum += getWeight() * VALUE;
+        return getWeight() * VALUE;
     }
 }
