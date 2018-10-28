@@ -2,7 +2,7 @@ package homeProject10.Ex2;
 
 import java.util.Objects;
 
-public class Trumpet implements Instrument{
+public class Trumpet implements Instrument {
     private int diameter;
 
     public Trumpet(int diameter) {
