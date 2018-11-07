@@ -1,4 +1,4 @@
-package homeProject10.Ex2;
+package homeProject10.ex2;
 
 public class ExInstrument {
     public static void main(String[] args) {
