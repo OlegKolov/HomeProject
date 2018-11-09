@@ -11,8 +11,9 @@ public class WorkWithWords {
     }
 
     public static String centerChars(String line) {
-        StringBuilder sb = new StringBuilder(40);
-        sb.append(line.charAt((line.length() - 1) / 2)).append(line.charAt((line.length() + 1) / 2));
+        StringBuilder sb = new StringBuilder();
+        sb.append(line.charAt((line.length() - 1) / 2))
+                .append(line.charAt((line.length() + 1) / 2));
         return sb.toString();
     }
 }

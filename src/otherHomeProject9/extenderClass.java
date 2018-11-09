@@ -1,6 +1,6 @@
 package otherHomeProject9;
 
-import homeProject9.Ex1.someClass;
+import homeProject9.ex1.someClass;
 
 public class extenderClass extends someClass {
     public void access(){
