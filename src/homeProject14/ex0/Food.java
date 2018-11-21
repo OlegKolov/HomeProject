@@ -1,8 +1,8 @@
 package homeProject14.ex0;
 
 public class Food {
-    public void prepare(Cookable c){
-       c.cook();
+    public void prepare(Cookable c) {
+        c.cook();
     }
 
     public static void main(String[] args) {
