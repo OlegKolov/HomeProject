@@ -9,7 +9,7 @@ public class Ex1 {
     }
 
     private static void printInfo(Class gClass) {
-        System.out.println("Class name "+gClass.getName());
+        System.out.println("Class name " + gClass.getName());
         System.out.println("Is Array? " + gClass.isArray());
         System.out.println("Is Interface? " + gClass.isInterface());
         System.out.println("Is Primitive? " + gClass.isPrimitive());
