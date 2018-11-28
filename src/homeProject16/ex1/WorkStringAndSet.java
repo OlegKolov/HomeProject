@@ -17,7 +17,7 @@ public class WorkStringAndSet {
         };
 
         String[] words = text.split(stringPattern);
-            set.addAll(Arrays.asList(words));
+        set.addAll(Arrays.asList(words));
         System.out.println(set);
     }
 }
