@@ -1,5 +1,7 @@
 package homeProject16.ex1;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Scanner;
 import java.util.HashSet;
 import java.util.Set;
@@ -15,10 +17,7 @@ public class WorkStringAndSet {
         };
 
         String[] words = text.split(stringPattern);
-        for (String s : words
-                ) {
-            set.add(s);
-        }
+            set.addAll(Arrays.asList(words));
         System.out.println(set);
     }
 }
