@@ -13,15 +13,26 @@ public class Main {
         setStudent.add(student1);
         setStudent.add(student2);
         setStudent.add(student3);
-       /* for (Student s; setStudent) {
-           double result = avar.
+        for (Student s: setStudent) {
+           double result = avar(s);
                     if (result >= 3){
-                        System.out.println("");
+                        System.out.println("Next course");
+                    } else {
+                        System.out.println("Get out");
                     }
         }
     }
 
-    public static avar(Student s){
+    public static double avar(Student s){
+    double count = 0;
+        double[] marks = s.getMarks();
+        for(double d : marks)
+        count =+ d;
+        return count/marks.length;
+    }
 
-    }*/
-}}
+    public  static void printStudent(List<Student> students, int course){
+
+    }
+    }
+
